@@ -11,7 +11,7 @@ import { Map } from '@/components/Map'
 
 export default function HomePage() {
   return (
-    <>
+    <div className='dark:bg-black'>
       <Hero />
 
       <Section id="about" title="Our Story" sub="A warm, cozy corner where coffee meets conversation.">
@@ -42,6 +42,6 @@ export default function HomePage() {
           </div>
         </div>
       </Section>
-    </>
+    </div>
   )
 }
