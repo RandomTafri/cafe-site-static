@@ -18,7 +18,7 @@ body { font-family: var(--font-sans); }
 
 .container-tight { @apply container max-w-6xl; }
 .section { @apply py-16 md:py-24; }
-.section-title { @apply h-serif text-3xl md:5xl font-semibold tracking-tight; }
+.section-title { @apply h-serif text-3xl md:text-5xl font-semibold tracking-tight; }
 .section-sub { @apply mt-3 text-cocoa/80; }
 .btn { @apply inline-flex items-center justify-center rounded-2xl font-medium transition; }
 .btn-lg { @apply text-lg px-8 py-3; }
